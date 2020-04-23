@@ -61,3 +61,5 @@ min_max_scaler=preprocessing.MinMaxScaler().fit(ind_trainv1)
 
 train_norm=min_max_scaler.transform(ind_trainv1)
 oot_norm=min_max_scaler.transform(ind_ootv1)
+
+train_dep_data=np.array(dep_train[['depnt_var']]).astype('float32')

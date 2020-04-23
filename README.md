@@ -1,4 +1,4 @@
-#CNN1D on a single time window for classification tasks
+# CNN1D on a single time window for classification tasks
 
 This Repository will utilize convolutional Neural Networks in 1 Dimension for a classification task using Keras and tensforflow as backend
 
